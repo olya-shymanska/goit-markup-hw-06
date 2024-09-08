@@ -16,7 +16,7 @@ button {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -31,10 +31,11 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #4d5ae5;
 }
 
-.text-different-color {
-    color: #4d5ae5;
+.logo-different-color{
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -50,9 +51,23 @@ body {
     color: #404bbf;
 }
 
+.address-info {
+    font-style: normal
+}
+
+
+.address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+
 }
 
 /* /HEADER STYLES */
@@ -61,10 +76,14 @@ body {
 
 /* first section */
 
+.first-section {
+    background-color: #2e2f42;
+}
+
 .first-section-header {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -76,7 +95,14 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+        background-color: #4d5ae5;
 }
+
+.button-order-service:hover,
+.button-order-service:focus {
+    background-color: #404bbf;
+}
+
 
 /* /first section */
 
@@ -101,12 +127,21 @@ body {
 
 /* third section */
 
+.team-section {
+    background-color: #f4f4fd;
+}
+
 .team-header {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+}
+
+.team-list {
+    background-color: #ffffff;
 }
 
 .team-name {
@@ -133,9 +168,10 @@ body {
 .portfolio-header {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -159,17 +195,22 @@ body {
 
 /* FOOTER SECTION STYLES */
 
+.footer-section {
+    background-color: #2e2f42;
+}
+
 .page-logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
-.logo-different-color {
-    color: #4d5ae5;
+
+.logo-different-color-footer{
+    color: #f4f4fd;
 }
 
 .footer-text {
