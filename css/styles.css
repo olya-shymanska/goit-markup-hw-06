@@ -1,8 +1,15 @@
 /* COMMON STYLES */
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 ul,
 ol {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
@@ -14,11 +21,70 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* /COMMON STYLES */
+
+/* HEADER STYLES */
+
+
+
+
+
+
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.logo-different-color{
+    color: #2e2f42;
+}
+
+.menu-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
 
 /* /COMMON STYLES */
 
@@ -54,7 +120,205 @@ body {
 }
 
 .address-info {
-    font-style: normal
+    font-style: normal;
+}
+
+
+.address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+
+}
+
+/* /HEADER STYLES */
+
+/* HERO SECTION STYLES */
+
+/* first section */
+
+.first-section {
+    background-color: #2e2f42;
+}
+
+.first-section-header {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.button-order-service {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        background-color: #4d5ae5;
+}
+
+.button-order-service:hover,
+.button-order-service:focus {
+    background-color: #404bbf;
+}
+
+
+/* /first section */
+
+/* second section */
+
+.benefits-header {
+    color: #2e2f42;
+}
+
+.benefit-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.benefit-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* /second section */
+
+/* third section */
+
+.team-section {
+    background-color: #f4f4fd;
+}
+
+.team-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+/* /third section */
+
+/* fourth section */
+
+.portfolio-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.portfolio-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.portfolio-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* /fourth section */
+
+/* /HERO SECTION STYLES */
+
+/* FOOTER SECTION STYLES */
+
+.footer-section {
+    background-color: #2e2f42;
+}
+
+.page-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.logo-different-color-footer{
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+/* /FOOTER SECTION STYLES */
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+    color: #404bbf;
+}
+
+.address-info {
+    font-style: normal;
 }
 
 
