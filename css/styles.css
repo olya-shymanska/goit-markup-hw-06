@@ -83,18 +83,12 @@ body {
     column-gap: 40px;
 }
 
-.menu li:last-child {
-    margin-right: 0;
-}
 
 .address-list {
     display: flex;
     column-gap: 40px;
 }
 
-.address-list li:last-child {
-    margin-right: 0px;
-}
 
 
 .menu-link, .address-link {
@@ -227,9 +221,6 @@ body {
     align-items: center;
 }
 
-.benefits-list li:last-child {
-    margin-right: 0px;
-}
 
 .benefits-item {
     width: calc((100% - 72px)/4)
@@ -287,9 +278,6 @@ body {
     column-gap: 24px;
 }
 
-.team-list li:last-child {
-    margin-right: 0px;
-}
 
 .team-item {
     width: calc((100% - 72px) /4);
