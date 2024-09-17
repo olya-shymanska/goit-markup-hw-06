@@ -83,16 +83,19 @@ body {
     column-gap: 40px;
 }
 
+.menu:last-child {
+    margin-right: 0;
+}
 
 .address-list {
     display: flex;
     column-gap: 40px;
 }
 
-
-.menu-item-last {
-margin-right: 0%;
+.address-list:last-child {
+    margin-right: 0%;
 }
+
 
 .menu-link, .address-link {
     display: inline-block;
@@ -227,7 +230,7 @@ margin-right: 0%;
 }
 
 .benefits-list:last-child {
-    margin: 0;
+    margin-right: 0px;
 }
 
 .benefits-item {
@@ -287,7 +290,7 @@ margin-right: 0%;
 }
 
 .team-list:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .team-item {
