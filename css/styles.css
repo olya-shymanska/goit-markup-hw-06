@@ -80,13 +80,13 @@ body {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 
@@ -217,7 +217,7 @@ body {
 
 .benefits-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     align-items: center;
 }
 
@@ -275,7 +275,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 
