@@ -1,4 +1,5 @@
 /* COMMON STYLES */
+
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
@@ -240,11 +241,12 @@ body {
     display: flex;
     gap: 24px;
     align-items: center;
-}
+    flex-wrap: nowrap;
+} 
 
 
 .benefits-item {
-    width: calc((100% - 72px)/4)
+    width: calc((100% - 72px)/4);
 }
 
 .benefits-header {
@@ -267,6 +269,19 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.benefits-item-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 
 /* /second section */
 
@@ -337,6 +352,35 @@ body {
     padding-bottom: 32px;
 }
 
+.social-links-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    stroke:#f4f4fd;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
+.social-links-list {
+    display: flex;
+    gap: 24px;
+}
 
 /* /third section */
 
@@ -403,6 +447,39 @@ border-bottom: 1px solid #e7e9fc;
         align-items: flex-start;
 }
 
+.portfolio-overlay-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        width: 296px;
+}
+
+.portfolio-image-overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-image-overlay-wrapper:hover .portfolio-overlay {
+    transform: translateY(0%);
+}
+
 /* /fourth section */
 
 /* /HERO SECTION STYLES */
@@ -442,4 +519,20 @@ border-bottom: 1px solid #e7e9fc;
         width: 264px;
 }
 
+.footer-social-links-header {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-social-links-list {
+    display: flex;
+}
 /* /FOOTER SECTION STYLES */
