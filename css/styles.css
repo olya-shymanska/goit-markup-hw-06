@@ -525,14 +525,37 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        margin-bottom: 16px;
 }
 
 .footer-container {
     display: flex;
     gap: 120px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .footer-social-links-list {
     display: flex;
+    gap: 16px;
 }
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    stroke: #f4f4fd;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #404bbf;
+}
+
 /* /FOOTER SECTION STYLES */
