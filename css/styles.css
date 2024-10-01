@@ -69,6 +69,7 @@ body {
     top: 0;
     z-index: 999;
     background-color: #ffffff;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-content {
@@ -129,11 +130,11 @@ body {
     color: #404bbf
 }
 
-.menu-link.current::before {
-    content: '';
+.menu-link.current::after {
+    content: "";
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -1px;
     width: 100%;
     height: 4px;
     background-color: #404bbf;
