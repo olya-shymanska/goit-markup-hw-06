@@ -356,7 +356,7 @@ body {
     padding-bottom: 32px;
 }
 
-.social-links-list-container {
+.social-links-list {
     display: flex;
     justify-content: center;
     align-items: center;
