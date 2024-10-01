@@ -525,6 +525,10 @@ border-bottom: 1px solid #e7e9fc;
         margin-bottom: 16px;
 }
 
+.footer-logo-container {
+    margin-right: 120px;
+}
+
 .logo-different-color-footer{
     color: #f4f4fd;
 }
@@ -549,9 +553,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .footer-container {
     display: flex;
-    gap: 120px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: baseline;
 }
 
 .footer-social-links-list {
@@ -575,6 +578,10 @@ border-bottom: 1px solid #e7e9fc;
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #404bbf;
+}
+
+.footer-social-link-icon {
+    fill: #f4f4fd;
 }
 
 /* /FOOTER SECTION STYLES */
