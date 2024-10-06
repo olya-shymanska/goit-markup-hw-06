@@ -493,24 +493,55 @@
         <p class="modal-header">Leave your contacts and we will call you back</p>
         <form class="feedback-form">
           <div class="feedback-form-field-wrapper">
-            <label class="feedback-form-field-label" for=""></label>
-            <input class="feedback-form-input" type="text">
+            <label class="feedback-form-field-label" for="user-name">
+              Name
+            </label>
+            <input class="feedback-form-input" 
+            type="text" 
+            id="user-name" 
+            name="user-name" 
+            required>
+            <svg class="feedback-form-input-icon" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
           </div>
           <div class="feedback-form-field-wrapper">
-            <label class="feedback-form-field-label" for=""></label>
-            <input class="feedback-form-input" type="text">
+            <label class="feedback-form-field-label" for="phone-number">
+              Phone
+            </label>
+            <input class="feedback-form-input" 
+            type="tel" 
+            id="phone-number" 
+            name="phone-number">
           </div>
           <div class="feedback-form-field-wrapper">
-            <label class="feedback-form-field-label" for=""></label>
-            <input class="feedback-form-input" type="text">
+            <label class="feedback-form-field-label" for="email">
+              Email
+            </label>
+            <input class="feedback-form-input" 
+            type="email" 
+            id="email" 
+            name="email">
           </div>
           <div class="feedback-form-field-wrapper">
-            <label class="feedback-form-field-label" for=""></label>
-           <textarea class="feedback-form-comment" id=""></textarea>
+            <label class="feedback-form-field-label" for="comment">
+              Comment
+            </label>
+           <textarea class="feedback-form-comment" 
+           id="comment" 
+           name="comment" 
+           placeholder="Text input" 
+           required>
+          </textarea>
           </div>
           <div class="feedback-form-checkbox-wrapper">
-            <input class="feedback-form-checkbox" type="checkbox">
-            <label class="feedback-form-checkbox-label" for="">
+            <input class="feedback-form-checkbox" 
+            type="checkbox" 
+            id="privacy-policy" 
+            name="privacy-policy" 
+            value="true" 
+            required>
+            <label class="feedback-form-checkbox-label" for="privacy-policy">
               I accept the terms and conditions of the 
               <a class="feedback-form-policy-link" href="">Privacy Policy</a>
             </label>
