@@ -480,8 +480,32 @@
           </li>
         </ul>
       </div>
+      <div class="footer-form">
+      <div class="footer-input-wrapper">
+      <label class="footer-input-label" for="footer-email">
+        Subscribe
+      </label>
+      <input class="footer-input"
+      type="email"
+      id="footer-email"
+      name="email"
+      placeholder="E-mail">
+      </div>
+      <div class="footer-btn-wrapper">
+      <button class="footer-btn" type="submit">
+        Subscribe
+        <svg class="footer-btn-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-plane"></use>
+        </svg>
+      </button>
+      </div>
+      </div>
       </div>
     </footer>
+
+    <!-- /Page Footer -->
+
+    <!-- Modal Window -->
 
     <div class="modal-backdrop">
       <div class="modal">
@@ -546,13 +570,18 @@
            required></textarea>
           </div>
           <div class="feedback-form-checkbox-wrapper">
-            <input class="feedback-form-checkbox" 
+            <input class="feedback-form-checkbox visually-hidden " 
             type="checkbox" 
             id="privacy-policy" 
             name="privacy-policy" 
             value="true" 
             required>
             <label class="feedback-form-checkbox-label" for="privacy-policy">
+              <span class="feedback-form-custom-checkbox">
+                <svg class="feedback-form-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the 
               <a class="feedback-form-policy-link" href="">Privacy Policy</a>
             </label>
@@ -562,6 +591,7 @@
       </div>
     </div>
 
-    <!-- /Page Footer -->
+     <!-- /Modal Window -->
+
   </body>
 </html>
