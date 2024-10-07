@@ -505,7 +505,7 @@
 
     <!-- Modal Window -->
 
-    <div class="modal-backdrop">
+    <div class="modal-backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -557,12 +557,12 @@
             </svg>
             </div>
           </div>
-          <div class="feedback-form-field-wrapper">
-            <label class="feedback-form-field-label" for="comment">
+          <div class="feedback-form-comment-wrapper">
+            <label class="feedback-form-field-label" for="user-comment">
               Comment
             </label>
            <textarea class="feedback-form-comment" 
-           id="comment" 
+           id="user-comment" 
            name="comment" 
            placeholder="Text input" 
            required></textarea>
@@ -570,11 +570,11 @@
           <div class="feedback-form-checkbox-wrapper">
             <input class="feedback-form-checkbox visually-hidden " 
             type="checkbox" 
-            id="privacy-policy" 
-            name="privacy-policy" 
+            id="user-privacy" 
+            name="user-privacy" 
             value="true" 
             required>
-            <label class="feedback-form-checkbox-label" for="privacy-policy">
+            <label class="feedback-form-checkbox-label" for="user-privacy">
               <span class="feedback-form-custom-checkbox">
                 <svg class="feedback-form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
